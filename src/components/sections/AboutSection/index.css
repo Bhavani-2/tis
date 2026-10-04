@@ -1,0 +1,38 @@
+.home-layout-container .home-layout-allSection {
+    z-index: 2;
+    overflow: hidden;
+}.third-section-main-div {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding-inline: 10%;
+    padding-top: 3rem;
+}.third-section-main-div .content-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}.third-section-main-div .content-div .text-div {
+    align-self: center;
+}*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}.third-section-main-div .image {
+    align-self: center;
+    transition: transform .3s ease;
+    height: auto;
+}.third-section-main-div .middle-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}.third-section-main-div .content-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}

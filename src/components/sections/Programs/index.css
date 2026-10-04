@@ -1,0 +1,33 @@
+.swiper-horizontal {
+    touch-action: pan-y;
+}.text-\[\#60bab1\] {
+    --tw-text-opacity: 1;
+    color: rgb(96 186 177 / var(--tw-text-opacity));
+}@media (min-width: 768px) {
+    .md\:text-\[clamp\(10px\2c 2\.5vw\2c 100px\)\] {
+        font-size: clamp(10px, 2.5vw, 100px);
+    }
+}
+.circled-text-sports .svg-circle.active {
+    stroke-dashoffset: 0;
+}.circled-text-sports .svg-circle {
+    stroke-dashoffset: 206.1999053955078px;
+    stroke-dasharray: 206.1999053955078px;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(.47, 0, .745, .715) 0s;
+    transition: stroke-dashoffset 1.5s cubic-bezier(.47, 0, .745, .715) 0s;
+}.slider-container {
+        background-color: transparent;
+        padding: 40px;
+}.slide-inner-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px !important;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}.ease-in {
+    transition-timing-function: cubic-bezier(.4, 0, 1, 1);
+}
+.image{
+    height: 150px;
+    width: 200px;
+}

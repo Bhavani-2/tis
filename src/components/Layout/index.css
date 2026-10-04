@@ -1,0 +1,205 @@
+
+.navbar-main-div-global {
+    width: 100%;
+    height: 4.5rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 2rem;
+    z-index: 111;
+    background-color: red;
+}
+.second-nav-logo {
+    width: 6.1rem;
+    height: auto;
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.navbar-main-div-global .navbar-list-main {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}.navbar-main-div-global .navbar-list-main .main-listed-item {
+    height: 4.5rem;
+    padding: none;
+    width: fit-content;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.navbar-main-div-global .navbar-list-main .title {
+    color: #fff;
+    text-align: center;
+    font-family: PF din Display100;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.58125rem;
+    letter-spacing: .055rem;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.navbar-main-div-global .yellow-line {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: .5rem;
+    bottom: .4rem;
+}.navbar-main-div-global .navbar-list-main .dropdown-container {
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    background: rgba(0, 0, 0, .32);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10.5px);
+}
+.options-btn:hover .menu-icon {
+    display: block;
+    animation: rotateFade .3s ease-out;
+}
+
+.options-btn:hover {
+    transform: scale(1.1);
+    transition: .3s ease-out;
+}
+.options-btn .menu-icon {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+.options-btn .menu-icon-div {
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container, .map-footer {
+    display: flex;
+    flex-direction: row;
+}
+.footer-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    background: linear-gradient(0deg, rgba(185, 0, 36, .56), rgba(185, 0, 36, .56)), linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(https://tis.edu.in/_next/static/media/schoolTopView.6e263e02.webp) #d3d3d3 50% / cover no-repeat;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}.footer-container .hero {
+    width: calc(30% - 3rem);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2.5rem;
+    border-bottom: 2px solid #fff;
+}
+.bottom-bar {
+    box-sizing: border-box;
+    margin-top: -4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}.footer-container .hero .address {
+    color: #fff;
+    font-family: TT Chocolates;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+}.footerlinks-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 0px;
+   
+}.footerlinks-link {
+    margin: 0;
+    list-style: none;
+    height: 23px;
+}.footerlinks-link .prospectus, .footerlinks-link-name {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: Exo, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+}.three-buttons .button {
+    display: flex;
+    margin-left: 30%;
+    cursor: pointer;
+    transition: .3s ease;
+    font-size: 25px;
+    text-align: center;
+    font-family: TT Chocolates;
+    background-color: #fff;
+    color: #b90124;
+    align-self: center;
+    justify-content: center;
+    padding: .5rem;
+    font-weight: 600;
+    width: 180px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}.bottom-bar {
+    box-sizing: border-box;
+    margin-top: -4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}.copyright-text {
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #fff;
+}.cmpny-socials-container {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}.cmpny-socials-btns-list {
+    display: flex;
+    flex-direction: row;
+    gap: .62rem;
+    margin-top: 1rem;
+}.cmpny-socials-btns-item {
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    transition: .3s ease;
+}
+a {
+    text-decoration: none;
+}
+.footerlinks-link a {
+    color: #fff;
+    text-decoration: none;
+}
